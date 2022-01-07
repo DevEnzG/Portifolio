@@ -1,0 +1,86 @@
+html{
+	
+	text-align: center;
+}
+body {
+	
+	height: 350vh;
+	background-image: linear-gradient(#ddc8af, #fcead5, #ddc8af) ;	
+
+}
+
+/**h1{
+
+	color: #CDC0B0;
+	text-shadow: 1px 1px 1px #000000;
+	font-size: 45px;}
+
+
+}**/
+
+h3{
+
+	color: #8B8378;
+	text-shadow: 1px 1px 1px #000000;
+	font-size: 24px;
+	display: block;
+	
+}
+a{
+
+	color: #00008B;
+	text-decoration: none;
+	font-size: bold;
+	text-shadow: 1px 1px 1px #000000;
+
+}
+button{
+
+	background: #ebdfd0;
+	border-color: #fff;
+	border-radius: 15px;
+ 
+}
+button:hover{
+
+	cursor: pointer;
+ 
+}
+button:active{
+
+	transition: .5s;
+	background: #c9baa7;
+	font-size: 15px;
+
+}
+/**.diferente{
+	background: #EEDFCC;
+}**/
+				/**TEXTO P.**/
+
+span {
+
+    font: 700 4em/1 "Oswald", sans-serif;
+    letter-spacing: 0;
+    padding: 10px;
+    display: block;
+    margin: 0 0 0 3%;
+
+    text-shadow: 0 0 80px rgba(255,255,255,.5);
+    background: url(../Imagens/awab.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
+
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+
+
+    }
+
+    @-webkit-keyframes aitf {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
